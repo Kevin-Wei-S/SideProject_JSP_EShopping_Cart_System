@@ -1,4 +1,4 @@
-# JSP_EShopping_Cart_System
+# SideProject_JSP_EShopping_Cart_System
 2022年2月中旬
 
 在2021年10月底，完成聯成Java&Python班的三個月的課程
