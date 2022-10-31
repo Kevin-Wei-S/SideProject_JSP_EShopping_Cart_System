@@ -10,3 +10,5 @@
 花兩個月補足前端三要素HTML、CSS、JavaScript的基本功， 而後端則先補JSP，
 
 刻了一個購物車網站，而後根據此作品面上了第一家軟體公司。
+
+![image](https://github.com/Kevin-Wei-S/JSP_EShopping_Cart_System/raw/master/Cart_page.png)
