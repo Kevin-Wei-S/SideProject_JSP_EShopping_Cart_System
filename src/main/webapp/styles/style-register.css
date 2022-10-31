@@ -1,0 +1,188 @@
+@charset "utf-8";
+        
+html {
+     font-size: 100%;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----以上為共同屬性-----*/
+
+form {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 45%;
+    margin: 1.5% auto;
+}
+
+.title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.inputGroup, .leftgroup, .rightgroup {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.combine {
+    display: flex;
+}
+
+.leftgroup {
+    width: 56%;
+}
+
+.rightgroup {
+    width: 50%;
+    margin: 3% 5% 6% 10%;
+    border: 1px dashed;
+    border-radius: 3px;
+    border-color: gray;
+}
+
+.lblock {
+    font-size: 1.2rem;
+    width: 65%;
+    height: 1.8rem;
+    margin: 5% 5% 5% 21%;
+}
+
+.block {
+    font-size: 1.2rem;
+    width: 29%;
+    height: 1.8rem;
+    margin: 2.5% 5% 2.5% 9.5%;
+}
+
+.passwdgroup {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.story {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.gender {
+    zoom: 2;
+}
+
+.gendergroup {
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+/*----------ID屬性----------*/
+#chTitle {
+    font-weight: lighter;
+}
+
+#enTitle {
+    font-size: 2.1rem;
+    font-family: 'Shalimar', cursive;
+    font-weight: lighter;
+}
+
+#checked {
+    
+    margin-left: 0;
+}
+
+#register {
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    width: 15%;
+    height: 2.5rem;
+    font-size: 1.65rem;
+    margin: 3.5% auto 5% auto;
+}
+
+#register:hover {
+	color: #000;
+}
+
+#joinMsg {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border: 2px solid;
+    border-color: orange;
+    text-align: left;
+   
+}
+
+#black {
+    width: 70%;
+    margin: 2% 0;
+    margin-left: 30%;
+
+}    
+
+#actor {
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-right: 15%;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: black;
+    height: 100%;
+}
+
+#genderErrorGroup {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#confirmGroup {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+    align-items: flex-end;
+}
+
+#token {
+    text-align: center;
+    height: 2.2rem;
+    width: 13%;
+}
+
+#code {
+    font-size: 1.25rem;
+    height: 1.8rem;
+    width: 10%;
+    margin-left: 2%;
+}
+
+#refresh {
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-bottom: 0;
+	color: #fff;
+	background-color: rgb(76, 205, 209);
+}
+

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*------------ 共通部分<以下> ------------ */
+html {
+    font-size: 100%;
+}
+body {
+    width: 80%;
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    color: #000;
+    margin: 1% auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*------------ 共通部分<以上> ------------ */
+
+#title {
+   
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+    font-weight: lighter;
+    
+    
+}
+
+#martBorder {
+    width: 100%;
+    height: 25%;
+    border: solid 1px;  
+    margin-top: 1%;
+    padding: 0.3% 0;
+    border-radius: 5px;
+   	border-color: goldenrod;
+}
+/*------------------以下為新添加----------------------*/
+.stuffItem {
+            border: solid 1px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            width: 75%;
+            margin: 5% auto;
+            text-align: center;
+        }
+
+.stuffItem span {
+            font-size: 1.2rem;
+            margin: 1% auto;
+        }
+
+.btn {
+            font-size: 1.2rem;
+            font-weight: bolder;
+            color: #fff;
+            background-color: orange;
+            width: 65%;
+            margin: 5% auto;
+        }
+        
+#cartItemsBorder {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.stuffItem img {
+	width: 92%;
+    margin: 3% auto;
+}
+
+.pageClass{
+	font-size: 1.2rem;
+}
+
+#pageBorder a {
+	color: blue;
+}
+
+#pageBorder a:hover {
+	
+	text-decoration: underline;
+}
+
+#pageBorder span {
+	
+	color: #000;
+}
+
+#pageBorder {
+	text-align: center;
+	margin-top: 0.5%;
+}
+
+.pageSupClass {
+	font-size: 1.1rem;
+}
+
+#pageNo{
+	font-weight: bolder;
+}
+/*------------搜尋食品--------------*/
+
+#serchBorder {
+	width: 100%;
+    height: 25%;
+    border: solid 1px;  
+    margin-top: 1%;
+    padding: 5% 0;
+    border-radius: 5px;
+   	border-color: #000;
+   	display: flex;
+   	justify-content: center;
+}
+
+.searchItems {
+	margin: auto 1%;
+}
+
+#beginPrice, #endPrice {
+	height: 1.8rem;
+	width: 8.8rem;
+	font-size: 1.47rem;
+}
+
+#priceText {
+	font-size: 1.55rem;
+	color: deeppink;
+}
+
+#symbol {
+	font-size: 1.8rem;
+	color: deeppink;
+}
+
+#searchBtn {
+	font-size: 1.65rem;
+	height: 2.6rem;
+	width: 5rem;
+	background-color: orange;
+	color: #fff;
+	border-radius: 5px;
+	margin-left: 2%;
+}
+
+#searchBtn:hover {
+	color: #000;
+}
+
+#searchResultInfo {
+	font-size: 1.35rem;
+	color: deeppink;
+	text-align: center;
+	margin: 1% auto;
+}
+
+.priceInfo {
+	color: #000;
+}
+
+#newAddInfo {
+	font-size: 1.3rem;
+	color: red;
+	text-align: center;
+	text-decoration: underline #000;
+	margin: 0.5%;
+	
+}
+
+#newAddName {
+	
+	color: #000;
+
+}
+
+.shortage {
+	font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: gray;
+    border: solid #000;
+    width: 65%;
+    margin: 5% auto;
+}
+

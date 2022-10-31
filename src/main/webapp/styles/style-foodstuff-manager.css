@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*------------ 共通部分<以下> ------------ */
+html {
+    font-size: 100%;
+}
+body {
+    width: 80%;
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    color: #000;
+    margin: 1% auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*------------ 共通部分<以上> ------------ */
+
+#title {
+   
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+    font-weight: lighter;
+    
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.5rem;
+}
+
+.menuItem {
+    font-size: 1.5rem;
+    color: rgb(76, 205, 209);
+}
+
+table {
+    width: 100%;	
+    border: solid 1px;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+th{
+    font-size: 1.25rem;
+    padding: 0.3rem 0;
+    border-bottom: solid 1px;
+}
+
+td {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.25rem 0;
+    border-bottom: solid 1px;
+}
+
+#add {
+    color: orange;
+}
+
+.update {
+    color: deeppink; 
+}
+
+.delete {
+    color: red;
+}
+
+.pageClass{
+	font-size: 1.2rem;
+}
+
+#pageBorder a {
+	color: blue;
+}
+
+#pageBorder a:hover {
+	
+	text-decoration: underline;
+}
+
+#pageBorder span {
+	
+	color: #000;
+}
+
+#pageBorder {
+	text-align: center;
+	margin-top: 0.5%;
+}
+
+.pageSupClass {
+	font-size: 1.1rem;
+}
+
+#pageNo{
+	font-weight: bolder;
+}

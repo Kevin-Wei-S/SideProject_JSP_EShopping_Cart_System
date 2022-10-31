@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*------------ 共通部分<以下> ------------ */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    color: #000;
+    
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*------------ 共通部分<以上> ------------ */
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.logoText {
+    display: flex;  
+    gap: 10px;   
+}
+
+.header #logo {
+    width: 100px;
+    margin-top: 15px;
+    
+}
+
+#chText {
+    font-weight: lighter;
+    margin-top: 25px;  
+}
+
+#chText a {
+    color: #000;
+}
+
+#engText {
+    font-family: 'Shalimar', cursive;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 17px;
+}
+
+#engText a {
+    color: #000;
+}
+
+.header-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30%;
+}
+
+.asis-group {
+    display: flex;
+    gap: 10px;
+}
+
+.asis-group #member-icon{
+    width: 55px;
+    
+}
+
+.asis-group #mart-icon{
+    width: 55px;
+    margin-right: 2px;
+}
+
+.asis-group #search-icon{
+    width: 36px;
+    
+}
+
+#admin-icon{
+    width: 32px;
+    
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif TC', serif;
+    /*color: rgb(184, 176, 176);*/
+    color: #000;
+    font-size: 1.3rem;
+    gap: 80px;
+    list-style: none; 
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    line-height: 1.8;
+}
+
+.headerMenu a {
+    font-weight: bold;
+    color: rgb(80, 79, 79);
+}
+
+.intro-bg {
+    background-image: url(../static/img/dough6.jpg);
+    min-height: 100vh;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+}
+
+.intro-text {
+    text-align: center;
+    font-weight: lighter;
+    
+}
+.intro-text h2 {
+    font-weight: lighter; 
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+}
+
+.intro-text p {
+    font-size: 20px; 
+    padding-bottom: 0px;
+    margin-top: 7px;
+}
+
+#boundLine {
+    border-bottom: 2.5px double;
+    width: 620px;
+    margin: auto;
+}
+
+#greetUser {
+	font-size: 1.6rem;
+	color: orange;
+	text-decoration: underline;
+	
+}

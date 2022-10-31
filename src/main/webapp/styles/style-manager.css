@@ -1,0 +1,471 @@
+@charset "utf-8";
+/*------------ 共通部分<以下> ------------ */
+html {
+    font-size: 100%;
+}
+body {
+    width: 80%;
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    color: #000;
+    margin: 1% auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*------------ 共通部分<以上> ------------ */
+
+#title {
+   
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+    font-weight: lighter;
+    
+    
+}
+
+#menu {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.5rem;
+}
+
+.menuItem { 
+    font-size: 1.5rem;
+    color: rgb(76, 205, 209);
+}
+
+#border {
+    width: 100%;
+    height: 25%;
+    border: solid 1px;  
+    margin-top: 1%;
+    padding: 0.3% 0;
+    border-radius: 5px;
+}
+
+#editBorder {
+	width: 100%;
+    height: 25%;
+    border: solid 2px;  
+    margin-top: 1%;
+    padding: 0.3% 0;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+    font-weight: normal;
+    padding: 20%;
+}
+
+#addStuff {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2.5% 0;
+}
+
+#addStuff .text {
+	width: 13rem;
+	height: 1.6rem;
+	font-size: 1.4rem;
+	
+}
+
+#submit {
+	color: white;
+	background-color: orange;
+	font-size: 1.5rem;
+	height: 2.3rem;
+	width: 4rem;
+	border-radius: 5px;
+	
+}
+
+#submit:hover {
+	color: #000;
+}
+
+#addInfoS {
+	color:red;
+	font-size: 1.5rem; 
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-color: #000;
+}
+
+#addInfoD {
+	text-align: center;
+	margin: 0 auto 1%;
+}
+
+#updateStuff {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2.5% 0;
+}
+
+#updateStuff .text {
+	width: 10rem;
+	height: 1.6rem;
+	font-size: 1.4rem;
+	
+}
+
+#updateInfoS {
+	color:red;
+	font-size: 1.5rem; 
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-color: #000;
+}
+
+#updateInfoD {
+	text-align: center;
+	margin: 0 auto 1%;
+}
+
+#userText {
+	font-size: 1.5rem;
+	color: goldenrod;
+}
+
+.welcomeLine {
+	font-size: 1.8rem;
+}
+
+#welcomeText {
+	
+	color: deeppink;
+	
+}
+
+#welcomeBorder a {
+	
+	color: mediumslateblue;
+	margin-left: 4%;
+	text-decoration: underline;
+}
+
+#welcomeBorder {
+	text-align: center;
+	margin: 21% auto;
+}
+
+#welcomeName {
+	color: #000;
+}
+
+#greetUser {
+	font-size: 1.5rem;
+	color: mediumslateblue;
+	text-decoration: underline;
+	
+}
+
+/* cart-css 暫時 */
+
+#cartTable {
+	width: 85%;
+	margin: 1% auto;
+}
+
+#cartTable td,  #cartTable th {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+#img {
+	width: 8rem;
+}
+
+#cartTable input {
+	font-size: 1.25rem;
+	width: 5rem;
+	text-align: center;
+}
+
+.cartDelete {
+	color: red;
+	font-size: 1.25rem;
+}
+
+#cartClear {
+	color: deeppink;
+	font-size: 1.35rem;
+}
+
+#cartBill {
+	color: goldenrod;
+	font-size: 1.35rem;
+}
+
+#billInfo {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	margin: auto;
+	width: 70%;
+}
+
+#billInfo span {
+	font-size: 1.35rem;
+}
+
+#cartFunction {
+	margin: 0.7% auto;
+}
+
+#cartEmpty {
+	text-align: center;
+	margin: 20% auto;
+	font-size: 2.5rem;	
+	font-weight: lighter;
+}
+
+#cartEmpty a {
+	color: coral;
+}
+
+#cartCount {
+	color: red;
+}
+
+.parentheses {
+	
+	color: #000;
+
+}
+
+/* Order-Part */
+#orderborder {
+	
+	width: 100%;
+    height: 25%;
+    border: solid 1px;  
+    margin-top: 1%;
+    padding: 0.3% 0;
+    border-radius: 5px;
+
+}
+
+/* Checkout-Part */
+
+#checkoutInfo {
+	
+	text-align: center;
+	font-size: 1.6rem;
+	margin: 21% auto;
+	
+}
+
+#checkoutUserName {
+	
+	color: deeppink;
+
+}
+
+#checkoutOrderId {
+	
+	color: orange;
+	text-decoration: underline;
+
+}
+
+#sorryText {
+	
+	text-align: center;
+	font-size: 1.45rem;
+	color: red;
+	text-decoration: underline #000;
+	margin: 4%;
+}
+
+.shortageItem {
+	
+	text-align: center;
+	font-size: 1.4rem;
+	margin: 2%;
+	
+}
+
+.shortageName {
+	color: deeppink;
+}
+
+.shortageCount {
+	color: orange;
+}
+
+/* ManagerOrder-Part */
+
+#managerOrderTable {
+	
+	width: 85%;
+	margin: 1% auto;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.orderId {
+	color: goldenrod;
+	font-weight: bolder;
+	text-decoration: underline #000;
+}
+
+.orderDetail {
+	color: deeppink;
+}
+
+.ready {
+	
+	color: red;
+}
+
+.forward {
+	
+	color: forestgreen;
+}
+
+.receive {
+	
+	color: royalblue;
+}
+
+#areaZ {
+                position: fixed;
+                text-align: center;
+                background-color: #fff;
+                width: 20%;
+                height: 5.2rem;
+                border: inset 3px;
+                z-index: 7;
+                margin: 13% 35%;
+                border-radius: 5px;
+            }
+
+            #areaA {
+                background-color:  #000 ;
+                opacity: 0.7;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+                top: 0px;
+                left: 0px;
+            }
+
+            .status {
+                color: #000;
+                zoom: 1.5;
+            }
+           
+            #areaZ label {
+                font-weight: bolder;
+            }
+
+            #areaZ label:nth-of-type(1) {
+                color: red;
+            }
+
+            #areaZ label:nth-of-type(2) {
+                color: forestgreen;
+            }
+
+            #areaZ label:nth-of-type(3) {
+                color: royalblue;
+            }
+
+            #statusBtn {
+                margin: 2% auto;
+                
+            }
+            .statusBtn {
+                margin-left: 5%;
+            }
+
+            #update {
+                background-color: orange;
+                color: #fff;
+                font-size: 0.88rem;
+                font-weight: bolder;
+                border-radius: 5px;
+            }
+
+            #delete {
+                background-color: pink;
+                color: #fff;
+                font-size: 0.88rem;
+                font-weight: bolder;
+                border-radius: 5px;
+            }
+            
+            #idInfo {
+            	font-size: 1.05rem;
+            	font-weight: bolder;
+            	margin-top: 1%;
+            	
+            }
+            
+/* OrderDetail-Part */
+
+#detailOrderId {
+	
+	font-size: 1.4rem;
+	font-weight: bolder;
+	color: goldenrod;
+	text-align: center;
+	margin: 1.2%;
+	text-decoration: underline;
+	
+}
+
+#detailUserId, #detailOrderId, #detailCreateTime, #detailOrderStatus {
+	
+	text-align: center;
+	font-size: 1.4rem;
+	margin: 0.5% auto;
+	
+}
+
+#detailUserId {
+	
+	color: deeppink;
+}
+
+#detailCreateTime {
+	
+	color: cornflowerblue;
+}     
+
+#detailStatus0 {
+	
+	color: red;
+	font-weight: bolder;
+	text-decoration: underline
+}
+#detailStatus1 {
+	
+	color: forestgreen;
+	font-weight: bolder;
+	text-decoration: underline
+}        
+
+#detailStatus2 {
+	
+	color: royalblue;
+	font-weight: bolder;
+	text-decoration: underline
+}           
+
+
+
